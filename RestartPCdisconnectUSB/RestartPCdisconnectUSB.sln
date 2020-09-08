@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestartPCdisconnectUSB", "R
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupRestartPCdisconnectUSBx86", "SetupRestartPCdisconnectUSBx86\SetupRestartPCdisconnectUSBx86.vdproj", "{8855E357-5CE7-456C-BE37-EF0D61939AD5}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupRestartPCdisconnectUSB", "SetupRestartPCdisconnectUSB\SetupRestartPCdisconnectUSB.vdproj", "{14B2DE30-D770-4A91-B704-E9A0B352B526}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupRestartPCdisconnectUSB", "SetupRestartPCdisconnectUSB\SetupRestartPCdisconnectUSB.vdproj", "{F0359589-EF33-4822-8BF8-98E57A60BD21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,14 +33,10 @@ Global
 		{8855E357-5CE7-456C-BE37-EF0D61939AD5}.Release|x64.Build.0 = Release
 		{8855E357-5CE7-456C-BE37-EF0D61939AD5}.Release|x86.ActiveCfg = Release
 		{8855E357-5CE7-456C-BE37-EF0D61939AD5}.Release|x86.Build.0 = Release
-		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Debug|x64.ActiveCfg = Debug
-		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Debug|x64.Build.0 = Debug
-		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Debug|x86.ActiveCfg = Debug
-		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Debug|x86.Build.0 = Debug
-		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Release|x64.ActiveCfg = Release
-		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Release|x64.Build.0 = Release
-		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Release|x86.ActiveCfg = Release
-		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Release|x86.Build.0 = Release
+		{F0359589-EF33-4822-8BF8-98E57A60BD21}.Debug|x64.ActiveCfg = Debug
+		{F0359589-EF33-4822-8BF8-98E57A60BD21}.Debug|x86.ActiveCfg = Debug
+		{F0359589-EF33-4822-8BF8-98E57A60BD21}.Release|x64.ActiveCfg = Release
+		{F0359589-EF33-4822-8BF8-98E57A60BD21}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
