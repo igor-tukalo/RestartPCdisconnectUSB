@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestartPCdisconnectUSB", "RestartPCdisconnectUSB\RestartPCdisconnectUSB.csproj", "{9F74E2FC-F036-4165-AC00-9E8C6E2F65F8}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupRestartPCdisconnectUSBx86", "SetupRestartPCdisconnectUSBx86\SetupRestartPCdisconnectUSBx86.vdproj", "{8855E357-5CE7-456C-BE37-EF0D61939AD5}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupRestartPCdisconnectUSB", "SetupRestartPCdisconnectUSB\SetupRestartPCdisconnectUSB.vdproj", "{14B2DE30-D770-4A91-B704-E9A0B352B526}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +25,22 @@ Global
 		{9F74E2FC-F036-4165-AC00-9E8C6E2F65F8}.Release|x64.Build.0 = Release|x64
 		{9F74E2FC-F036-4165-AC00-9E8C6E2F65F8}.Release|x86.ActiveCfg = Release|x86
 		{9F74E2FC-F036-4165-AC00-9E8C6E2F65F8}.Release|x86.Build.0 = Release|x86
+		{8855E357-5CE7-456C-BE37-EF0D61939AD5}.Debug|x64.ActiveCfg = Debug
+		{8855E357-5CE7-456C-BE37-EF0D61939AD5}.Debug|x64.Build.0 = Debug
+		{8855E357-5CE7-456C-BE37-EF0D61939AD5}.Debug|x86.ActiveCfg = Debug
+		{8855E357-5CE7-456C-BE37-EF0D61939AD5}.Debug|x86.Build.0 = Debug
+		{8855E357-5CE7-456C-BE37-EF0D61939AD5}.Release|x64.ActiveCfg = Release
+		{8855E357-5CE7-456C-BE37-EF0D61939AD5}.Release|x64.Build.0 = Release
+		{8855E357-5CE7-456C-BE37-EF0D61939AD5}.Release|x86.ActiveCfg = Release
+		{8855E357-5CE7-456C-BE37-EF0D61939AD5}.Release|x86.Build.0 = Release
+		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Debug|x64.ActiveCfg = Debug
+		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Debug|x64.Build.0 = Debug
+		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Debug|x86.ActiveCfg = Debug
+		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Debug|x86.Build.0 = Debug
+		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Release|x64.ActiveCfg = Release
+		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Release|x64.Build.0 = Release
+		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Release|x86.ActiveCfg = Release
+		{14B2DE30-D770-4A91-B704-E9A0B352B526}.Release|x86.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
