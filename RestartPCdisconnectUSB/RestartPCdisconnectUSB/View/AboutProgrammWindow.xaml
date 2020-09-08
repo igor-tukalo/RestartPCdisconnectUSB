@@ -1,0 +1,33 @@
+﻿<Window x:Class="RestartPCdisconnectUSB.View.AboutProgrammWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RestartPCdisconnectUSB.View"
+                mc:Ignorable="d"
+        Title="" Height="292.82" Width="800" MaxHeight="450" MaxWidth="800"  
+        WindowStyle="SingleBorderWindow"
+        Icon="/RestartPCdisconnectUSB;component/Images/aboutprogramm.png"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48"/>
+            <RowDefinition Height="38"/>
+            <RowDefinition Height="51"/>
+            <RowDefinition Height="282"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="139"/>
+            <ColumnDefinition Width="653"/>
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Left" Height="140" Margin="10,10,0,0" VerticalAlignment="Top" Source="/RestartPCdisconnectUSB;component/Images/aboutprogrammbig.png" Grid.RowSpan="4" Width="117"/>
+        <TextBlock FontSize="30" FontWeight="DemiBold" Margin="1,0,10,0" TextWrapping="NoWrap" TextAlignment="Center" Text="RestartPCdisconnectUSB 1.0.1" VerticalAlignment="Top" Grid.Column="1" Height="48"/>
+        <TextBlock FontSize="13" FontWeight="DemiBold" Grid.Column="1" Margin="20,12,21,5" TextWrapping="Wrap" Text="   Задача программы перезагружать ПК после отключения одной из наблюдаемых USB." Grid.Row="1"/>
+        <TextBlock FontSize="13" FontWeight="DemiBold" Grid.Column="1" Margin="20,10,21,3" TextWrapping="Wrap" Text="   Для работы нужно взять под наблюдение USB из доступных в системе. Если наблюдаемого USB не будет среди списка USB в системе - ПК будет перезагружен." Grid.Row="2"/>
+        <TextBlock FontSize="13" FontWeight="DemiBold" Grid.Column="1" Margin="20,19,10,0" TextWrapping="Wrap" Text="© Тукало Игорь Олегович 10.04.2020" Grid.Row="3" Height="26" VerticalAlignment="Top"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="20,45,0,0" Grid.Row="3" VerticalAlignment="Top" Source="/RestartPCdisconnectUSB;component/Images/metroui.png" Width="30"/>
+        <TextBlock FontSize="13" FontWeight="DemiBold" Grid.Column="1" Margin="55,50,20,0" TextWrapping="Wrap" Text="+38 067 919 34 04" Grid.Row="3" Height="20" VerticalAlignment="Top"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="36" Margin="20,80,0,0" Grid.Row="3" VerticalAlignment="Top" Source="/RestartPCdisconnectUSB;component/Images/gmail.png" Width="30"/>
+        <TextBlock FontSize="13" FontWeight="DemiBold" Grid.Column="1" Margin="54,85,21,0" TextWrapping="Wrap" Text=" igor1994ua@gmail.com" Grid.Row="3" Height="21" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
